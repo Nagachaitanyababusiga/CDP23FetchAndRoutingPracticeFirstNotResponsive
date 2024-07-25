@@ -1,0 +1,53 @@
+/* Write your CSS code here */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.logoer {
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.liitemcont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px black solid;
+  margin: 10px;
+  border-radius: 5px;
+}
+.liitemtxt {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.liiconcont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.topic {
+  color: #8e8e8e;
+}
+.title {
+  color: #000000;
+  font-size: 22px;
+}
+.author {
+  color: #8e8e8e;
+}
+a {
+  text-decoration: none;
+}
